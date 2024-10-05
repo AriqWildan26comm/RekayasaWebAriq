@@ -1,0 +1,93 @@
+/* Navbar styling */
+.navbar {
+    background-color: #007bff;
+  }
+  
+  .navbar .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .navbar .nav-link {
+    color: #fff;
+  }
+  
+  .navbar .nav-link:hover {
+    color: #ffdd57;
+  }
+  
+  /* Section Utama */
+  #section-main {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  #section-main h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  
+  #section-main p {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  #section-main img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  #section-main img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Gallery Section */
+  #gallery h2 {
+    color: #007bff;
+    margin-bottom: 30px;
+  }
+  
+  #gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  #gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer Styling */
+  #footer {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  #footer a {
+    color: #ffdd57;
+    text-decoration: none;
+  }
+  
+  #footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    #section-main h1 {
+      font-size: 2rem;
+    }
+  
+    #section-main p {
+      font-size: 1rem;
+    }
+  }
+  

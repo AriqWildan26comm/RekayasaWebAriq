@@ -1,0 +1,94 @@
+/* Navbar styling */
+.navbar {
+    background-color: #28a745; /* Hijau */
+  }
+  
+  .navbar .navbar-brand {
+    color: #796f6f; /* Kuning */
+    font-weight: bold;
+  }
+  
+  .navbar .nav-link {
+    color: #7a7070; /* Kuning */
+  }
+  
+  .navbar .nav-link:hover {
+    color: #7e7878; /* Putih pada hover */
+  }
+  
+  /* Section Utama */
+  #section-main {
+    background-color: #f8f9fa; /* Warna background netral */
+    padding: 50px 0;
+  }
+  
+  #section-main h1 {
+    font-size: 2.5rem;
+    color: #28a745; /* Hijau */
+  }
+  
+  #section-main p {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  #section-main img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  #section-main img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Gallery Section */
+  #gallery h2 {
+    color: #28a745; /* Hijau */
+    margin-bottom: 30px;
+  }
+  
+  #gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  #gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Footer Styling */
+  #footer {
+    background-color: #28a745; /* Hijau */
+    color: #161615; /* Kuning */
+  }
+  
+  #footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  #footer a {
+    color: #0c0c0c; /* Kuning */
+    text-decoration: none;
+  }
+  
+  #footer a:hover {
+    text-decoration: underline;
+    color: #f8f9fa; /* Putih pada hover */
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    #section-main h1 {
+      font-size: 2rem;
+    }
+  
+    #section-main p {
+      font-size: 1rem;
+    }
+  }
+  
